@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# *Dependency Inversion Principle* (*DIP*) in *TypeScript* as an example of interaction of adjacent layers in *Clean Architecture*
+# *Dependency Inversion Principle* (*DIP*) in *JavaScript*
 
 ---
 
