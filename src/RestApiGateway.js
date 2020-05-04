@@ -1,5 +1,4 @@
 const fetchPostTitle = require('./fetchPostTitle')
-const PostUseCaseOut = require('./BusinessLogicDip')
 
 module.exports =  class RestApiGateway {
   constructor(endpoint) {

@@ -6,9 +6,10 @@
 
 ## Feature tags
 
-- clean-architecture
-- dependency-inversion
-- typescript
+- dip
+- node
+- javascript
+- solid
 
 ---
 
@@ -18,16 +19,9 @@
 
 ---
 
-## Parents
-
-[**- clean-architecture, dependency-inversion**](https://github.com/softspiders/typescript)
-
----
-
 ## Requirements
 
-* [Node.js](https://nodejs.org/en/download/package-manager/)
-* [TypeScript](https://www.typescriptlang.org/)
+[Node.js](https://nodejs.org/en/download/package-manager/)
 
 ---
 
