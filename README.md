@@ -34,13 +34,13 @@ yarn
 
 ## Run
 
-## Run without DIP
+### Run without DIP
 
 ```sh
 yarn start-without-dip
 ```
 
-## Run with DIP
+### Run with DIP
 
 ```sh
 yarn start-dip
@@ -48,6 +48,6 @@ yarn start-dip
 
 ---
 
-### License
+## License
 
 Licensed under the [MIT license](./LICENSE).
