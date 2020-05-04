@@ -2,6 +2,8 @@
 
 # *Dependency Inversion Principle* (*DIP*) in *JavaScript*
 
+UNDER_DEVELOPMENT
+
 ---
 
 ## Feature tags
@@ -44,6 +46,12 @@ yarn start-without-dip
 
 ```sh
 yarn start-dip
+```
+
+### Run Deck
+
+```sh
+yarn start-deck
 ```
 
 ---

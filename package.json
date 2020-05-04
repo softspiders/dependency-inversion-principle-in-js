@@ -3,9 +3,14 @@
   "license": "MIT",
   "scripts": {
     "start-without-dip": "node ./src/index-without-dip.js",
-    "start-dip": "node ./src/index-dip.js"
+    "start-dip": "node ./src/index-dip.js",
+    "start-deck": "mdx-deck deck.mdx"
   },
   "dependencies": {
     "cross-fetch": "^3.0.4"
+  },
+  "devDependencies": {
+    "code-surfer": "3.1.1",
+    "mdx-deck": "3.0.10"
   }
 }
