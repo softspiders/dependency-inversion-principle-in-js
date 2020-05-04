@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start-without-dip": "node ./src/index-without-dip.js",
+    "start-dip": "node ./src/index-dip.js"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.4"
+  }
+}
