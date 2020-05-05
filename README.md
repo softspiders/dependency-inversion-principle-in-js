@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# *Dependency Inversion Principle* (*DIP*) in *JavaScript*
+# *Dependency Inversion Principle* (*DIP*) on *NodeJS*
 
 UNDER_DEVELOPMENT
 
