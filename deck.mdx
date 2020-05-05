@@ -35,7 +35,7 @@ export const theme = vsDark;
 
 <Step>
 
-```ts 1 file=./src/BusinessLogicNaive.js title="Naive Business Logic" subtitle="has outward dependencies"
+```ts 1,5 file=./src/BusinessLogicNaive.js title="Naive Business Logic" subtitle="has outward dependencies"
 ```
 
 </Step>
@@ -43,3 +43,62 @@ export const theme = vsDark;
 </CodeSurferColumns>
 
 ---
+
+<CodeSurferColumns
+  themes={[naiveTheme, naiveTheme]}
+>
+<Step>
+
+```ts 1,5 file=./src/BusinessLogicNaive.js title="Naive Business Logic" subtitle="has outward dependencies"
+```
+
+```ts file=./src/fetchPostTitle.js title="REST API Client"
+```
+
+</Step>
+<Step>
+
+```ts 1,5 file=./src/BusinessLogicNaive.js title="Naive Business Logic" subtitle="has outward dependencies"
+```
+
+```ts 3 file=./src/fetchPostTitle.js title="REST API Client"
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<CodeSurferColumns themes={[naiveTheme, naiveTheme]}>
+
+<Step>
+
+```ts file=./src/BusinessLogicDIP.js title="Business Logic following the DIP" subtitle="has no outward dependencies"
+```
+
+
+</Step>
+
+<Step>
+
+```ts 7 file=./src/BusinessLogicDIP.js title="Business Logic following the DIP" subtitle="thanks to dependency inversion"
+```
+
+</Step>
+
+<Step>
+
+```ts 3,7 file=./src/BusinessLogicDIP.js title="Business Logic following the DIP" subtitle="thanks to dependency inversion that uses dependency injection"
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+# How does it work ?
+
+---
+
