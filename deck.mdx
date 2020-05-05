@@ -6,7 +6,7 @@ import {
 } from "code-surfer";
 
 import { github, vsDark } from "@code-surfer/themes";
-import {  vsDark as withoutDipTheme } from "@code-surfer/themes";
+import {  vsDark as naiveTheme } from "@code-surfer/themes";
 
 export const theme = vsDark;
 
@@ -21,5 +21,18 @@ export const theme = vsDark;
 ---
 
 # No Gorilla
+
+---
+
+<CodeSurferColumns themes={[naiveTheme, naiveTheme]}>
+
+<Step>
+
+```ts file=./src/BusinessLogicNaive.js title="Business Logic Naive"
+```
+
+</Step>
+
+</CodeSurferColumns>
 
 ---

@@ -2,7 +2,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start-without-dip": "node ./src/index-without-dip.js",
+    "start-naive": "node src/index-naive.js",
     "start-dip": "node ./src/index-dip.js",
     "start-deck": "mdx-deck deck.mdx"
   },

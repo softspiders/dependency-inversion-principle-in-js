@@ -36,10 +36,10 @@ yarn
 
 ## Run
 
-### Run without DIP
+### Run Naive
 
 ```sh
-yarn start-without-dip
+yarn start-naive
 ```
 
 ### Run with DIP

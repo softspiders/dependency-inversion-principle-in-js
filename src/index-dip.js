@@ -1,4 +1,4 @@
-const BusinessLogicDip = require('./BusinessLogicDip')
+const BusinessLogicDip = require('./BusinessLogicDIP')
 const RestApiGateway = require('./RestApiGateway')
 
 new BusinessLogicDip(new RestApiGateway('https://my-json-server.typicode.com/typicode/demo/posts')).getPostTitle()
